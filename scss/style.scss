@@ -1,0 +1,38 @@
+.main {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px black solid;
+    padding: 10px;
+    border-radius: 25px;
+    &__body {
+        margin-top: 20px;
+    }
+
+    &__header {
+    }
+
+    &__text {
+        display: none;
+    }
+
+    &__input {
+       
+    }
+
+    &__button {
+        margin: 20px auto 0 auto;
+        display: block;
+        width: 150px;
+        height: 75px;
+        font-size: 32px;
+    }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.active{
+    display: block;
+}
